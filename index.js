@@ -788,13 +788,13 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "YouTube",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Grup",              
               "url": `${myweb}`
 
             }
@@ -1244,6 +1244,89 @@ user.afkTime = + new Date
 user.afkReason = text
 m.reply(`${m.pushName} Telah Afk Dengan Alasan ${text ? ': ' + text : 'Nothing'}`)
 }
+break
+case 'sendbug' : {
+Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
+a = await alpha.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+alpha.sendMessage(Pe, {text: "KHAZE AJA"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(Pe, {text: "KHAZE NIH BOS"}, {quoted: a})
+await sleep(20)
+m.reply(`Succes By Khaze`)
+}
+break
+case 'gasbro':
+if (!text) throw `NOMER KONTOL`
+let pek = { 
+        key: { 
+            fromMe: false, 
+            participant: `0@s.whatsapp.net`, 
+            ...({ remoteJid: "" }) 
+        }, 
+        message: { 
+            "imageMessage": { 
+                "mimetype": "image/jpeg", 
+                "caption": `KHAZE AJA`, 
+                "jpegThumbnail": fs.readFileSync("./image/lol.jpg")
+            } 
+        } 
+    }
+alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
+await sleep(10)
+alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
+await sleep(10)
+alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
+await sleep(10)
+alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
+await sleep(10)
+alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
+await sleep(10)
+alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
+await sleep(10)
+m.reply(`Succes By Khaze`)
+break
+case 'leenzxd' : {
+a = await alpha.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+alpha.sendMessage(m.chat, {text: "KHAZE WAS HERE"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
+await sleep(20)
+m.reply(`Succes`)
+}
 break  
 case 'family100': {
 if ('family100'+m.chat in _family100) {
@@ -1531,10 +1614,10 @@ break
             break
 				case 'menu':{
 					if(typemenu == 'templateLocation'){
-						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
+						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Grup","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
 							}
 						if(typemenu == 'templateTenor'){
-							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
+							alpha.send5ButGif(from, lang.menunya(salam, pushname, botname) , `© ${ownername}` ,pp_bot, [{"urlButton": {"displayText": "YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Grup","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] , {quoted: m})
 						 }
 						if(typemenu == 'katalog'){
 							alpha.sendKatalog(m.chat, "ALL MENU BOT", lang.listMenu(time, salam, pushname, prefix), pp_bot, {quoted:m})
@@ -1548,7 +1631,7 @@ break
 					}
 					break    
 	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube","url": `${youtube}`}},{"urlButton": {"displayText": "Grup","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
