@@ -18,15 +18,15 @@ global.autoread = false // auto read pesan / message
 //global.available = false //status online (online)
 
 // Other
-global.botname = "Leenz" //namabot kalian
-global.ownername= "Leenz Tampan" //nama kalian
+global.botname = "Khze" //namabot kalian
+global.ownername= "Khze Tampan" //nama kalian
 global.myweb = "https://chat.whatsapp.com/KICzVsaaccZ5xD6PmoY1rp" //bebas asal jan hapus
-global.youtube = "https://youtube.com/channel/UCNZZeYwd6qQFDRmVIXpFmOA" //bebas asal jan hapus
+global.youtube = "https://youtube.com/channel/UCAZ3l_5vR58MWtoXtpq3upw" //bebas asal jan hapus
 global.github = "https://zeeone-ofc.github.io/" //bebas
-global.email = "LeenzGans@gmail.com" //bebas
+global.email = "KhzeGans@gmail.com" //bebas
 global.region = "Indonesia" //bebas
-global.ownernomer = "6285880982400" // nomor wa kalian
-global.ownernomerr = "+6285880982400" //nmr wa kalian
+global.ownernomer = "6289659980807" // nomor wa kalian
+global.ownernomerr = "+6289659980807" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
