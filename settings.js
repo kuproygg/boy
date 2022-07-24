@@ -18,8 +18,8 @@ global.autoread = false // auto read pesan / message
 //global.available = false //status online (online)
 
 // Other
-global.botname = "Khze" //namabot kalian
-global.ownername= "Khze Tampan" //nama kalian
+global.botname = "Khaze" //namabot kalian
+global.ownername= "Khaze Tampan" //nama kalian
 global.myweb = "https://chat.whatsapp.com/KICzVsaaccZ5xD6PmoY1rp" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UCAZ3l_5vR58MWtoXtpq3upw" //bebas asal jan hapus
 global.github = "https://zeeone-ofc.github.io/" //bebas
