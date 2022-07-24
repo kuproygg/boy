@@ -1248,7 +1248,7 @@ break
 case 'sendbug' : {
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await alpha.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-alpha.sendMessage(Pe, {text: "LEENZ WAS HERE"}, {quoted: a})
+alpha.sendMessage(Pe, {text: "KHAZE AJA"}, {quoted: a})
 await sleep(20)
 alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
 await sleep(20)
@@ -1266,9 +1266,9 @@ alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
 await sleep(20)
 alpha.sendMessage(Pe, {text: "Prikitiw"}, {quoted: a})
 await sleep(20)
-alpha.sendMessage(Pe, {text: "LEENZ NIH BOS"}, {quoted: a})
+alpha.sendMessage(Pe, {text: "KHAZE NIH BOS"}, {quoted: a})
 await sleep(20)
-m.reply(`Succes By Leenz`)
+m.reply(`Succes By Khaze`)
 }
 break
 case 'gasbro':
@@ -1282,7 +1282,7 @@ let pek = {
         message: { 
             "imageMessage": { 
                 "mimetype": "image/jpeg", 
-                "caption": `LEENZ GANS`, 
+                "caption": `KHAZE AJA`, 
                 "jpegThumbnail": fs.readFileSync("./image/lol.jpg")
             } 
         } 
@@ -1299,11 +1299,11 @@ alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
 await sleep(10)
 alpha.sendMessage(`${text}@s.whatsapp.net`, {text:"kontol"},{quoted:pek})
 await sleep(10)
-m.reply(`Succes By Leenz`)
+m.reply(`Succes By Khaze`)
 break
 case 'leenzxd' : {
 a = await alpha.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-alpha.sendMessage(m.chat, {text: "LEENZ WAS HERE"}, {quoted: a})
+alpha.sendMessage(m.chat, {text: "KHAZE WAS HERE"}, {quoted: a})
 await sleep(20)
 alpha.sendMessage(m.chat, {text: "Slebew"}, {quoted: a})
 await sleep(20)
